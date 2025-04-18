@@ -11,15 +11,29 @@ html_pages = [
     "faq.html", "contact_us.html", "terms_and_conditions.html", "privacy_policy.html"
 ]
 
-# Change the content of HTML files continuously
+# Create a dictionary to keep track of version numbers for each file
+file_versions = {page: 1 for page in html_pages}
+
+# Change the content of HTML files continuously with some modifications
 def modify_html_page(page):
     with open(page, "a") as file:
-        file.write(f"\n<!-- Modification at {time.ctime()} -->\n")
+        # Randomly adding content or changing an existing section
+        modification_type = random.choice(["adding a new section", "updating text", "fixing layout"])
+        content = f"\n<!-- {modification_type} at {time.ctime()} -->\n"
+        file.write(content)
+    return modification_type
 
-# Git commit function
-def git_commit():
+# Git commit function with versioned meaningful messages
+def git_commit(page, modification_type):
+    # Increment the version number for the page
+    version = file_versions[page]
+    file_versions[page] += 1
+    
+    # Create the commit message with versioning
+    commit_message = f"Modified {page}: {modification_type} on {time.strftime('%b %d')} v{version}"
+    
     os.system("git add .")
-    os.system('git commit -m "Automated commit"')
+    os.system(f'git commit -m "{commit_message}"')
     os.system("git push")
 
 # Main function to automate the process
@@ -30,14 +44,14 @@ def automate_commits():
         # Select a random HTML file to modify
         page = random.choice(html_pages)
         
-        # Modify the selected HTML file
-        modify_html_page(page)
+        # Modify the selected HTML file and get the modification type
+        modification_type = modify_html_page(page)
         
-        # Commit the change to Git
-        git_commit()
+        # Commit the change to Git with a versioned and meaningful message
+        git_commit(page, modification_type)
         
         # Wait for a short period before making the next change
-        time.sleep(random.randint(25, 35))  # Random interval between 25 to 35 seconds to simulate randomness
+        time.sleep(random.randint(25, 35))  # Random interval between 25 to 35 seconds
         
         commits += 1
         elapsed_time = time.time() - start_time
