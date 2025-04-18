@@ -152,7 +152,7 @@ def git_commit(page, modification_type):
 def automate_commits():
     commits = 0
     start_time = time.time()
-    while commits < 800:
+    while commits < 120:
         # Select a random HTML file to modify
         page = random.choice(html_pages)
         
@@ -162,12 +162,12 @@ def automate_commits():
         # Commit the change to Git with a versioned and meaningful message
         git_commit(page, modification_type)
         
-        # Wait for a short period before making the next change
-        time.sleep(random.randint(25, 35))  # Random interval between 25 to 35 seconds
+        # Wait for a period before making the next change
+        time.sleep(240)  # 240 seconds (4 minutes) interval between commits
         
         commits += 1
         elapsed_time = time.time() - start_time
-        print(f"Commit {commits}/800 completed. Elapsed time: {elapsed_time/3600:.2f} hours")
+        print(f"Commit {commits}/120 completed. Elapsed time: {elapsed_time/3600:.2f} hours")
         
         if elapsed_time > 28800:  # 8 hours in seconds
             print("8 hours have passed. Stopping commits.")
