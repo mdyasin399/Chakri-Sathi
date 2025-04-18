@@ -14,94 +14,124 @@ html_pages = [
 # Create a dictionary to keep track of version numbers for each file
 file_versions = {page: 1 for page in html_pages}
 
-# Human-like commit message variations
+# Casual commit message variations
 commit_messages = {
     "home.html": [
-        "Fixed the layout issue on the homepage, making it more user-friendly",
-        "Updated homepage text to better explain the purpose of the platform",
-        "Improved the header section for better visibility",
-        "Made some minor tweaks to the homepage to improve navigation"
+        "Fixed the homepage layout, it looks better now.",
+        "Tweaked the homepage a bit to make it nicer.",
+        "Made some changes to the homepage design.",
+        "Updated the homepage with new sections."
     ],
     "job_search.html": [
-        "Refined the job search filters for a more accurate search experience",
-        "Updated the job search form to include new filters like job type and location",
-        "Improved the styling of the job search section to make it more visually appealing",
-        "Fixed a minor issue in the job search results display"
+        "Changed the job search filters a little.",
+        "Fixed a tiny issue with job search filters.",
+        "Improved job search to make it work better.",
+        "Added more filters to job search."
     ],
     "post_a_job.html": [
-        "Updated the post a job form to reflect the latest requirements",
-        "Revised the job posting form layout for better user experience",
-        "Added new fields to the job posting form to allow employers to specify more details"
+        "Updated the job posting form with new fields.",
+        "Changed some stuff on the job post form.",
+        "Fixed a bug with posting jobs.",
+        "Reorganized the job posting form."
     ],
     "browse_jobs.html": [
-        "Improved job listing layout for better readability",
-        "Added pagination to job listings to improve page load times",
-        "Refined the job filtering options on the browse jobs page"
+        "Fixed job listing to show more things.",
+        "Updated job listing to look nicer.",
+        "Improved job list layout.",
+        "Added better filtering to job listings."
     ],
     "create_account.html": [
-        "Revised account creation form with clearer instructions",
-        "Improved the styling of the account creation form to match the platform's theme"
+        "Updated the account creation form.",
+        "Made the sign up form clearer.",
+        "Fixed some issues with the account creation page.",
+        "Improved account creation form a little."
     ],
     "login.html": [
-        "Made login page more responsive for mobile users",
-        "Updated the login page to include a 'remember me' option"
+        "Made login page more user-friendly.",
+        "Fixed a small issue with the login page.",
+        "Updated login page styling.",
+        "Made login page work better on mobile."
     ],
     "my_profile.html": [
-        "Added an option for users to upload a profile picture",
-        "Improved profile page layout for better readability"
+        "Added profile picture upload option.",
+        "Fixed some bugs on the profile page.",
+        "Updated profile page layout.",
+        "Made it easier to change profile details."
     ],
     "job_alerts.html": [
-        "Enhanced the job alert system to include daily notifications",
-        "Fixed a bug in the job alert setup that was preventing alerts from being sent"
+        "Fixed a bug with the job alert system.",
+        "Made job alerts send better notifications.",
+        "Updated job alerts to be more useful.",
+        "Reworked the job alert system a bit."
     ],
     "employer_dashboard.html": [
-        "Updated employer dashboard to display more relevant job metrics",
-        "Revised the employer dashboard layout to improve ease of use"
+        "Updated the employer dashboard.",
+        "Improved how the employer dashboard looks.",
+        "Fixed some layout issues on the employer dashboard.",
+        "Made the employer dashboard easier to use."
     ],
     "resume_builder.html": [
-        "Improved the resume builder UI to make it more intuitive",
-        "Updated the resume builder to allow users to export to PDF"
+        "Fixed a bug in the resume builder.",
+        "Improved how the resume builder works.",
+        "Updated the resume builder design.",
+        "Made the resume builder easier to use."
     ],
     "job_application.html": [
-        "Fixed an issue with the job application form submission process",
-        "Revised the job application form to include additional fields for applicants"
+        "Fixed issues with the job application form.",
+        "Updated the job application page.",
+        "Changed some things on the job application form.",
+        "Fixed a bug with submitting job applications."
     ],
     "company_profiles.html": [
-        "Updated company profiles with new branding and company information",
-        "Revised the layout of the company profile page for better organization"
+        "Updated company profile layout.",
+        "Fixed some issues with company profiles.",
+        "Revised the company profile page.",
+        "Improved company profile display."
     ],
     "salary_calculator.html": [
-        "Updated salary calculator to reflect the latest salary data",
-        "Fixed some layout issues on the salary calculator page"
+        "Fixed layout issues on the salary calculator.",
+        "Updated the salary calculator with new data.",
+        "Improved salary calculator to make it more accurate.",
+        "Tweaked the salary calculator design."
     ],
     "career_advice.html": [
-        "Added a new section on career advice for job seekers",
-        "Updated the career advice section to include tips on remote work"
+        "Added new career advice tips.",
+        "Updated career advice section.",
+        "Reworked career advice page a bit.",
+        "Added more content to career advice."
     ],
     "faq.html": [
-        "Updated the FAQ section with answers to common user questions",
-        "Refined the FAQ section layout for easier navigation"
+        "Updated the FAQ section.",
+        "Added more questions to the FAQ.",
+        "Fixed some small issues in the FAQ.",
+        "Revised the FAQ for better answers."
     ],
     "contact_us.html": [
-        "Updated the contact form to include a subject field",
-        "Fixed a styling issue with the contact page form"
+        "Updated contact page form.",
+        "Fixed the contact form layout.",
+        "Reworked the contact page a bit.",
+        "Updated the contact page design."
     ],
     "terms_and_conditions.html": [
-        "Revised the terms and conditions based on new legal guidelines",
-        "Updated the terms and conditions to reflect changes in privacy policy"
+        "Revised terms and conditions a little.",
+        "Updated terms and conditions to include new info.",
+        "Made small changes to the terms and conditions.",
+        "Reworked the terms and conditions section."
     ],
     "privacy_policy.html": [
-        "Updated the privacy policy to include new data protection regulations",
-        "Revised privacy policy wording for clarity"
+        "Updated privacy policy to make it clearer.",
+        "Revised the privacy policy with new details.",
+        "Made some changes to the privacy policy.",
+        "Updated privacy policy wording."
     ]
 }
 
 # Change the content of HTML files continuously with some modifications
 def modify_html_page(page):
     with open(page, "a") as file:
-        # Select a human-like modification message for the file
+        # Select a casual modification message for the file
         modification_type = random.choice(commit_messages[page])
-        content = f"\n<!-- {modification_type} at {time.ctime()} -->\n"
+        content = f"\n<!-- {modification_type} -->\n"
         file.write(content)
     return modification_type
 
@@ -112,7 +142,7 @@ def git_commit(page, modification_type):
     file_versions[page] += 1
     
     # Create the commit message with versioning
-    commit_message = f"Modified {page}: {modification_type} on {time.strftime('%b %d')} v{version}"
+    commit_message = f"Modified {page}: {modification_type} v{version}"
     
     os.system("git add .")
     os.system(f'git commit -m "{commit_message}"')
