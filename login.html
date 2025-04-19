@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Chakri Shathi - Home</title>
+  <title>Login - Chakri Shathi</title>
   <link rel="stylesheet" href="style/index.css" />
   <link rel="stylesheet" href="style/style.css">
 </head>
@@ -13,18 +13,20 @@
       <nav>
         <a href="index.html">Home</a>
         <a href="jobs.html">Jobs</a>
-        <a href="login.html">Login</a>
-        <a href="register.html">Register</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero">
-    <div class="container">
-      <h2>Smart Jobs, Bright Future!</h2>
-      <p>Find your dream job today.</p>
-      <a href="jobs.html" class="btn">Browse Jobs</a>
-    </div>
+  <section class="container">
+    <h2>Login</h2>
+    <form action="#" method="post">
+      <label>Email:</label><br />
+      <input type="email" name="email" required /><br /><br />
+      <label>Password:</label><br />
+      <input type="password" name="password" required /><br /><br />
+      <button type="submit" class="btn">Login</button>
+    </form>
+    <p>Don't have an account? <a href="register.html">Register here</a></p>
   </section>
 
   <footer>
