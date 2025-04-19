@@ -68,6 +68,20 @@
     </div>
 </section>
 
+<section class="featured-companies">
+    <h2>Featured Companies</h2>
+    <div class="companies">
+        <img src="img/1.png" alt="Daffodil">
+        <img src="img/2.png" alt="BRAC">
+        <img src="img/3.png" alt="Meghna">
+        <img src="img/4.png" alt="Anwar">
+        <img src="img/5.png" alt="Walton">
+        <img src="img/6.png" alt="Meghna">
+        <img src="img/7.png" alt="Anwar">
+        <img src="img/8.png" alt="Walton">
+    </div>
+</section>
+
  <footer>
     <div class="footer">
         <div class="footer-logo">
