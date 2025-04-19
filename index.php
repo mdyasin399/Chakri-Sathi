@@ -82,6 +82,61 @@
     </div>
 </section>
 
+<section class="featured-jobs">
+    <h2 style="text-align: center;">Featured Jobs</h2>
+    <div class="jobs">
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div> 
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>  
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div> 
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>
+        <div class="job-item">
+            <h3>Senior SQA Engineer</h3>
+            <p>Grit Technologies</p>
+            <p>৳ 70,000 - 100,000</p>
+            <button>Apply Now</button>
+        </div>                                                          
+    
+    </div>      
+</section>
+
  <footer>
     <div class="footer">
         <div class="footer-logo">
