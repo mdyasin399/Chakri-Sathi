@@ -99,6 +99,17 @@ header nav ul li a {
     color: #280d58;
 }
 
+.featured-companies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.companies img {
+    width: 200px;
+    padding: 10px;
+    margin: 16px;
+}
+
 footer {
     background-color: #220951;
     color: white;
