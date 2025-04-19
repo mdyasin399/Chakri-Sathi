@@ -29,6 +29,18 @@
         </div>
     </header>
 
+    <section class="nav">
+        <div class="search-bar">
+            <input type="text" placeholder="Keyword Search">
+            <input type="text" placeholder="Select Your Category">
+            <button>Search</button>
+        </div>
+        <div class="search-barr">
+            <button>Apply For A Job</button>
+            <button>Post A Job</button>
+        </div>
+    </section>
+
 
 </body>
 </html>
