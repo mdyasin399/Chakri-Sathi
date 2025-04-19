@@ -1,0 +1,26 @@
+.job-listing {
+    background: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 4px solid #0a3d62;
+  }
+  
+  .job-listing h3 a {
+    text-decoration: none;
+    color: #0a3d62;
+  }
+  
+  form input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  form .btn {
+    margin-top: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
