@@ -99,3 +99,29 @@ header nav ul li a {
     color: #4b2b88;
 }
 
+footer {
+    background-color: #220951;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.grooming-text {
+    background-color: #7641da;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.grooming-img {
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
