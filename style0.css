@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    background-color: #e5ffffa7;
 }
 
 
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #4b2b88;
+    background-color: #321c5b;
     padding: 10px 20px;
     color: white;
 }
@@ -41,11 +41,11 @@ header nav ul li a {
 
 .auth-buttons .login {
     background: white;
-    color: #4b2b88;
+    color: #3b2a5a;
 }
 
 .auth-buttons .signup {
-    background: #00c851;
+    background: #405ccc;
     color: white;
 }
 
@@ -53,7 +53,7 @@ header nav ul li a {
 .nav {
     text-align: center;
     padding: 80px 20px;
-    background: #bbdee3;
+    background: #2a94a2;
     background-image: url('img/wp.webp');
     background-repeat: no-repeat;
     background-size: 1900px 300px;
@@ -69,7 +69,7 @@ header nav ul li a {
 
 .search-bar button {
     padding: 10px 20px;
-    background-color: #4b2b88;
+    background-color: #4703c7;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
@@ -79,7 +79,7 @@ header nav ul li a {
     padding: 10px 20px;
     margin: 10px 5px;
     border-radius: 5px;
-    background-color: #2b887c;
+    background-color: #4703c7;
     color: rgb(255, 255, 255);
     border: none;
     cursor: pointer;
@@ -96,7 +96,7 @@ header nav ul li a {
 }
 
 .stat-item h2 {
-    color: #4b2b88;
+    color: #280d58;
 }
 
 footer {
