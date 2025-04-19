@@ -41,6 +41,33 @@
         </div>
     </section>
 
+<section class="stats">
+    <div class="stat-item">
+        <img src="icon/LIVE JOBS.png" alt="img" width="50" height="50">
+        <p>LIVE JOBS</p>
+        <h2>3500+</h2>
+        
+    </div>
+    <div class="stat-item">
+        <img src="icon/COMPANIES.png" alt="img" width="50" height="50">
+        <p>COMPANIES</p>
+        <h2>250+</h2>
+        
+    </div>
+    <div class="stat-item">
+        <img src="icon/VACANCIES.png" alt="img" width="50" height="50">
+        <p>VACANCIES</p>
+        <h2>3000+</h2>
+        
+    </div>
+    <div class="stat-item">
+        <img src="icon/NEW JOBS.png" alt="img" width="50" height="50">
+        <p>NEW JOBS</p>
+        <h2>150+</h2>
+        
+    </div>
+</section>
+
 
 </body>
 </html>
