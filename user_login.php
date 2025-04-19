@@ -1,3 +1,35 @@
+<?php
+$conn = new mysqli('localhost', 'root', '', 'db');
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $user_type = $_POST['user_type'];
+
+    $stmt = $conn->prepare("INSERT INTO users (username, email, password, user_type) VALUES (?, ?, ?, ?)");
+    if ($stmt) {
+        $stmt->bind_param("ssss", $username, $email, $password, $user_type);
+        if ($stmt->execute()) {
+            echo "d";
+        } else {
+            echo "Error: " . $stmt->error;
+        }
+        $stmt->close();
+    } else {
+        echo "Error preparing statement: " . $conn->error;
+    }
+}
+
+$conn->close();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,7 +148,7 @@
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
                 <div class="form-group">
-                    <button type="submit">Login</button>
+                    <button type="submit" class="btn">Login</button>
                 </div>
             </form>
             <a href="user_register.php">
