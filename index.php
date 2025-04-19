@@ -92,45 +92,45 @@
             <button>Apply Now</button>
         </div>
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Anesthesiologist</h3>
+            <p>Aristo Eye Hospital</p>
+            <p>৳ 50,000 - 60,000</p>
             <button>Apply Now</button>
         </div> 
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Designer</h3>
+            <p>Akij Footwear Limited</p>
+            <p>৳ 75,000 - 90,000</p>
             <button>Apply Now</button>
         </div>
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Data Entry Operator</h3>
+            <p>Arisha Dental Care</p>
+            <p>৳ 30,000 - 35,000</p>
             <button>Apply Now</button>
         </div>  
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Trainee Engineer</h3>
+            <p>Comfort Solutions</p>
+            <p>৳ 20,000 - 25,000</p>
             <button>Apply Now</button>
         </div>
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Software Solution Architect</h3>
+            <p>SIMEC System Ltd.</p>
+            <p>৳ 100,000 - 120,000</p>
             <button>Apply Now</button>
         </div> 
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Associate Professor</h3>
+            <p>United International University</p>
+            <p>৳ 150,000 - 200,000</p>
             <button>Apply Now</button>
         </div>
         <div class="job-item">
-            <h3>Senior SQA Engineer</h3>
-            <p>Grit Technologies</p>
-            <p>৳ 70,000 - 100,000</p>
+            <h3>Junior Law Officer</h3>
+            <p>Meghna Group of Industries.</p>
+            <p>৳ 60,000 - 80,000</p>
             <button>Apply Now</button>
         </div>                                                          
     
