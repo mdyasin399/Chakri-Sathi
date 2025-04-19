@@ -72,6 +72,27 @@
 </section>
 <!-- Stats Section End-->
 
+<!-- Job-Grooming Section -->
+<section class="job-grooming">
+        <div class="grooming-text">
+            <p>To polish yourself, please enter the JOB-Grooming page.</p>
+            <p>
+                The Job-Grooming page helps you learn basic concepts and practice with real-time applications.
+                Visit the page, learn from courses and tutorials, and apply for jobs. Best of luck!
+            </p>
+        </div>
+        <div class="grooming-img">
+            <img src="img/personal-grooming.jpg" alt="Job Grooming" width="400" height="200">
+            <img src="img/to-reach-looking-career-job.jpg" alt="Job Grooming" width="400" height="200">
+            <img src="img/Personal-Grooming-Banner.jpg" alt="Job Grooming" width="400" height="200">
+            <img src="img/draw-2+new.jpg" alt="Job Grooming" width="400" height="200">
+            <div class="search-barr">
+            <a href="ready.php"> <button>Job Grooming</button></a>
+            </div>
+        </div>
+    </section>
+<!-- Job-Grooming Section End-->
+    
 <!-- Footer -->
  <footer>
     <div class="footer">
