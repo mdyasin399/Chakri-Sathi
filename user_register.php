@@ -6,31 +6,31 @@
     <title>User Registration</title>
 </head>
 <body>
-    <div>
-        <form>
+    <div class="form-container">
+        <form class="registration-form">
             <h2>User Registration</h2>
             <form method="POST" action="user_register.php">
-                <div>
+                <div class="form-group">
                     <label for="username">Username</label>
                     <input type="text" name="username" placeholder="Username" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="Email" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="role">Role</label>
                     <select name="user_type" required>
                         <option value="job_seeker">Job Seeker</option>
                         <option value="employer">Employer</option>
                     </select>
                 </div>
-                <div>
-                    <button type="submit">Register</button>
+                <div class="form-group">
+                    <button type="submit" class="btn">Register</button>
                 </div>
             </form>
             <a href="user_login.php">
