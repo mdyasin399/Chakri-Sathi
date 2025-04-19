@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <form>
+    <div class="form-container">
+        <form class="registration-form">
             <h2>User Login</h2>
             <form method="POST">
-                <div>
+                <div class="form-group">
                     <label for="email">Email</label>
                     <input type="email" name="email" placeholder="Email" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <label for="password">Password</label>
                     <input type="password" name="password" placeholder="Password" required>
                 </div>
-                <div>
+                <div class="form-group">
                     <button type="submit">Login</button>
                 </div>
             </form>
