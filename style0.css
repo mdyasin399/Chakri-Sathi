@@ -110,6 +110,30 @@ header nav ul li a {
     margin: 16px;
 }
 
+.jobs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.job-item {
+    width: 200px;
+    padding: 20px;
+    background: #fff;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.job-item button {
+    background: #4b2b88;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
 footer {
     background-color: #220951;
     color: white;
