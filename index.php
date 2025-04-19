@@ -8,7 +8,8 @@
     <link rel="icon" href="img/logo.png">
 </head>
 <body>
-
+    
+<!-- Header Section -->
     <header>
         <div class="logo">
             <img src="img/logo.png" alt="চাকরি সাথী Logo">
@@ -28,7 +29,9 @@
             <a href="user_register.php"> <button class="signup">Sign up</button></a>
         </div>
     </header>
+<!-- Header Section End -->
 
+<!-- Nav Section -->
     <section class="nav">
         <div class="search-bar">
             <input type="text" placeholder="Keyword Search">
@@ -40,7 +43,9 @@
             <button>Post A Job</button>
         </div>
     </section>
+<!-- Nav Section End-->
 
+<!-- Stats Section -->
 <section class="stats">
     <div class="stat-item">
         <img src="icon/LIVE JOBS.png" alt="img" width="50" height="50">
@@ -67,7 +72,9 @@
         
     </div>
 </section>
+<!-- Stats Section End-->
 
+<!-- Featured Companies -->
 <section class="featured-companies">
     <h2>Featured Companies</h2>
     <div class="companies">
@@ -81,7 +88,9 @@
         <img src="img/8.png" alt="Walton">
     </div>
 </section>
+<!-- Featured Companies End-->
 
+<!-- Featured Jobs -->
 <section class="featured-jobs">
     <h2 style="text-align: center;">Featured Jobs</h2>
     <div class="jobs">
@@ -132,11 +141,14 @@
             <p>Meghna Group of Industries.</p>
             <p>৳ 60,000 - 80,000</p>
             <button>Apply Now</button>
-        </div>                                                          
+        </div>   
+        <!-- For new Job Items -->
     
     </div>      
 </section>
+<!-- Featured Jobs End-->
 
+<!-- Footer -->
  <footer>
     <div class="footer">
         <div class="footer-logo">
@@ -151,8 +163,9 @@
             <a href="https://github.com/mdyasin399"><img src="icon/github.png" alt="Github"></a>
             
         </div>
-    </div>
-</footer>
+     </div>
+ </footer>
+ <!-- Footer End-->
 
 
 </body>
