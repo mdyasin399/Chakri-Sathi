@@ -68,6 +68,23 @@
     </div>
 </section>
 
+ <footer>
+    <div class="footer">
+        <div class="footer-logo">
+            <img src="img/logo.png" alt="Chakri-Sathi">
+            <p>চাকরি সাথী(Chakri Sathi) is a leading job application site in Bangladesh.</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.youtube.com/@MDYasin-cw9kn"><img src="icon/youtube.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/in/mdyasin399/"><img src="icon/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/md_yasin399/"><img src="icon/instagram.png" alt="Instagram"></a>
+            <a href="https://github.com/mdyasin399"><img src="icon/github.png" alt="Github"></a>
+            
+        </div>
+    </div>
+</footer>
+
 
 </body>
 </html>
