@@ -1,1 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b2b88;
+    padding: 10px 20px;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.auth-buttons .login {
+    background: white;
+    color: #4b2b88;
+}
+
+.auth-buttons .signup {
+    background: #00c851;
+    color: white;
+}
+
+
+.nav {
+    text-align: center;
+    padding: 80px 20px;
+    background: #bbdee3;
+    background-image: url('img/wp.webp');
+    background-repeat: no-repeat;
+    background-size: 1900px 300px;
+}
+
+
+.search-bar input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #4b2b88;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+}
+
+.search-barr button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background-color: #2b887c;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+   
+}
+
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.stat-item h2 {
+    color: #4b2b88;
+}
 
