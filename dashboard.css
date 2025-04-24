@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f6fa;
+  }
+  
+  .dashboard-navbar {
+    background: #00529B;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dashboard-navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .dashboard-navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    font-style: italic;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+  }
+  
+  .filter-box {
+    width: 250px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  .filter-box select,
+  .filter-box input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .filter-box button {
+    width: 100%;
+    padding: 10px;
+    background: #FF5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-feed {
+    flex: 1;
+  }
+  
+  .job-feed h2 {
+    margin-bottom: 20px;
+  }
+  
+  .job-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-card h3 {
+    color: #00529B;
+  }
+  
+  .job-card button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .dashboard-navbar {
+    background: #00529B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    position: relative;
+  }
+  
+  .dashboard-navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard-navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .dashboard-navbar ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  #menu-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-navbar nav ul {
+      flex-direction: column;
+      background: #00529B;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      display: none;
+    }
+  
+    #menu-toggle:checked + .menu-icon + nav ul {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  
+  .welcome-banner {
+    background: #e3f2fd;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #00529B;
+  }
+  
+  
